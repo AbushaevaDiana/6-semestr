@@ -1,0 +1,23 @@
+@keyframes jump{
+    0%  {
+        -webkit-transform: translateY(0px);
+        transform: translateY(0px);
+      }
+    100% {
+        -webkit-transform: translateY(10px);
+        transform: translateY(10px);
+      }
+}
+
+    
+.letterA { 
+   animation: jump 0.3s cubic-bezier(0.1,0.25,0.1,1) 0s infinite alternate both; 
+}
+
+.letterB { 
+    animation: jump 0.56s cubic-bezier(0.1,0.25,0.1,1) 0s infinite alternate both; 
+}
+
+.letterC { 
+    animation: jump 0.97s cubic-bezier(0.1,0.25,0.1,1) 0s infinite alternate both; 
+}
