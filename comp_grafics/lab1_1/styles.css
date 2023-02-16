@@ -3,9 +3,13 @@
         -webkit-transform: translateY(0px);
         transform: translateY(0px);
       }
+    50% {
+        -webkit-transform: translateY(7px);
+        transform: translateY(40px);
+    }
     100% {
-        -webkit-transform: translateY(10px);
-        transform: translateY(10px);
+        -webkit-transform: translateY(40px);
+        transform: translateY(40px);
       }
 }
 

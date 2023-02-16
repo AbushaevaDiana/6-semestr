@@ -9,7 +9,6 @@ function draw(){
     context.fill();
 
 //Отвороты капюшона
-
     context.beginPath();
     context.ellipse(150, 157, 74, 64, 0 , Math.PI*2, 0);
     context.strokeStyle = '#000000'; 
