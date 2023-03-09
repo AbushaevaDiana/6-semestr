@@ -1,27 +1,29 @@
 @keyframes jump{
     0%  {
         -webkit-transform: translateY(0px);
-        transform: translateY(0px);
       }
-    50% {
-        -webkit-transform: translateY(7px);
-        transform: translateY(40px);
+    25%{
+        -webkit-transform: translateY(5px);
     }
+    50% {
+        -webkit-transform: translateY(15px);
+      }
+    75% {
+        -webkit-transform: translateY(35px);
+      }
     100% {
-        -webkit-transform: translateY(40px);
-        transform: translateY(40px);
+        -webkit-transform: translateY(75px);
       }
 }
-
-    
+   
 .letterA { 
-   animation: jump 0.3s cubic-bezier(0.1,0.25,0.1,1) 0s infinite alternate both; 
+   animation: jump 0.3s infinite alternate; 
 }
 
 .letterB { 
-    animation: jump 0.56s cubic-bezier(0.1,0.25,0.1,1) 0s infinite alternate both; 
+    animation: jump 0.56s infinite alternate; 
 }
 
 .letterC { 
-    animation: jump 0.97s cubic-bezier(0.1,0.25,0.1,1) 0s infinite alternate both; 
+    animation: jump 0.87s infinite alternate; 
 }
