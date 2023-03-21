@@ -1,5 +1,5 @@
 function generatePalette(palette, context) {
-    for (var r = 0, max = 2; r <= max; r++) {
+    for (var r = 0, max = 3; r <= max; r++) {
       for (var g = 0; g <= max; g++) {
         for (var b = 0; b <= max; b++) {
           var paletteBlock = document.createElement('div');
